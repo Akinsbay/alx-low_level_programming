@@ -3,7 +3,7 @@
 /**
  * main - printing the size of various type
  *
- * Return: 0 (success)
+ * Return: 0
  */
 int main(void)
 {
@@ -18,5 +18,6 @@ int main(void)
 	printf("size of a long int: %ld byte(s)\n", sizeof(li));
 	printf("size of a long long int: %ld byte(s)\n", sizeof(lli));
 	printf("size of a float: %ld byte(s)\n", sizeof(f));
+	fprintf(stderr, "[Anything]\n");
 	return (0);
 }
