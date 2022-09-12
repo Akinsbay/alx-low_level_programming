@@ -12,7 +12,7 @@ int main(void)
 	long int c;
 	long long int d;
 	float e;
-	stderr const char[] = "[Anything]"
+	stderr char[] = "[Anything]"
 
 	printf("Size of a char: %i byte(s)\n", sizeof(a));
 	printf("Size of an int: %i byte(s)\n", sizeof(b));
