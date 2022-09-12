@@ -12,13 +12,11 @@ int main(void)
 	long int c;
 	long long int d;
 	float e;
-	stderr char[] = "[Anything]"
 
 	printf("Size of a char: %i byte(s)\n", sizeof(a));
 	printf("Size of an int: %i byte(s)\n", sizeof(b));
 	printf("SIze of a long int: %i byte(s)\n", sizeof(c));
 	printf("Size of a long long int: %i byte(s)\n", sizeof(d));
 	printf("size of a float: %i byte(s)\n", sizeof(e));
-	fprintf(stderr, "[Anything]");
 	return (0);
 }
