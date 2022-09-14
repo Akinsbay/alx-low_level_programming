@@ -5,11 +5,11 @@
  *
  * Return: always 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alphabet;
 
-	alphabet = 'a'
+	alphabet = 'a';
 		while (alphabet <= 'z')
 	{
 		_putchar(alphabet)
