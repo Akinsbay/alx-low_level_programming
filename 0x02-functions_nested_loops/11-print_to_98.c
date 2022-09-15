@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * print_to_98 - print all natural number from input to 98
- *               in order separated by a comma, followed by a space
- * @n: the number to begin counting from.
+ * print_to_98 - prints all natural numbers from input to 98
+ *               in order separated by comma followed by a space
+ *@n: the number to begin counting from.
  */
 void print_to_98(int n)
 {
@@ -16,6 +16,6 @@ void print_to_98(int n)
 	{
 		while (n < 98)
 			printf("%d, ", n++);
-		printf("%d\n", n);
+		printf("%d\n" n);
 	}
 }
