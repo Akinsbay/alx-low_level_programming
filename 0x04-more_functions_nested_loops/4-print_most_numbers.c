@@ -12,8 +12,9 @@ void print_most_numbers(void)
 	{
 		if ((w == 50) || (w == 52))
 		{
-			_putchar(w);
+			continue;
 		}
+			_putchar(w);
 	}
 	_putchar(10);
 }
