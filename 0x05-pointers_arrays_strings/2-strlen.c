@@ -2,16 +2,16 @@
 
 /**
  * _strlen - to returns the length of a string
- *@s: parameter
+ *@s: string
  *
- * Return: count
+ * Return: length
  */
 int _strlen(char *s)
 {
-	int count;
+	int len;
 
-	for (count = 0; *s != "\0"; ++s)
-		count++;
+	for (len = 0; *(s + len) != '\0')
+		len++;
 
-	return (count);
+	return (len);
 }
