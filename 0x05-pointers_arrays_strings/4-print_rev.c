@@ -2,7 +2,7 @@
 
 /**
  *print_rev - to prints a string in reverse
- *@s: string to reverse
+ *@s: string to pring in reverse
  */
 
 void print_rev(char *s)
@@ -11,11 +11,10 @@ void print_rev(char *s)
 	int len;
 
 	for (len = 0; s[len] != '\0'; len++)
+
+	for (n = len - 1; n >= 0; n--)
 	{
-		for (n = len - 1; n >= 0; n--)
-		{
 		_putchar(s[n]);
-		}
 	}
 	_putchar('\n');
 }
